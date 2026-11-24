@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.sortowanie_tablic"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.sortowanie_tablic"
