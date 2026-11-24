@@ -64,13 +64,14 @@
         android:layout_height="wrap_content"
         android:text="ZATWIERDZ"
         android:layout_marginLeft="140dp"
+
         />
 
     <TextView
         android:id="@+id/heh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Witaj"
+        android:text="Autor : 82121586586"
         android:textAlignment="center"/>
 
 

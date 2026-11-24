@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Nieprawidlowy email!", Toast.LENGTH_SHORT).show();
                 }
 
-                if (haslo.getText().toString().equals(powtorzhaslo.getText().toString())) {
+                if (haslo.getText().toString().equals(powtorzhaslo.getText().toString().isEmpty())) {
+
                     Toast.makeText(MainActivity.this, "klasa", Toast.LENGTH_SHORT).show();
                 }
                 else {
